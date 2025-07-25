@@ -1,0 +1,1 @@
+gcloud storage cp gs://YOUR_GCP_PROJECT_ID-bucket/adk_tools.zip .
