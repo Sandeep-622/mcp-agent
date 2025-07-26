@@ -48,6 +48,7 @@ from . import prompt
 fetchData_agent = Agent(
     model='gemini-2.5-flash',
     name='fetchData_agent',
+    description="You are a data fetching agent. Your job is to fetch data using the tools provided based on the user's request.",
     instruction=prompt.PROMPT,
     tools=[
         fetch_net_worth,

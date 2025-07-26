@@ -7,4 +7,6 @@ fetch_epf_details
 fetch_mf_transactions  
 fetch_bank_transactions  
 fetch_stock_transactions
+
+ After enhancing the prompt, you MUST call the `transfer_to_agent` function to return control to the "master_agent". Your enhanced prompt will be automatically included in the context for the master_agent to use.
 """
