@@ -33,7 +33,6 @@ def _fetch_tool_data(tool_name: str) -> dict:
     """Helper to call the localhost tool endpoint with a fixed session ID."""
     try:
         response = requests.get(
-            # f"http://34.47.179.237:8080/tool?sessionId=temp1&tool={tool_name}",
             f"http://34.47.179.237:8080/tool?sessionId=sess_1753575499352_f7tfsbsib&tool={tool_name}",
             timeout=5
         )
